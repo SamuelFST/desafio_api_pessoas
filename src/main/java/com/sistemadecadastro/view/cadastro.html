@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar pessoa</title>
+    <script src="post.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form>
+        <h3>Cadastro</h3><br>
+        <label for="nome">Nome:</label>
+        <input name="nome" id="nome" type="text" placeholder="Nome">
+        <br>
+        <label for="sobrenome">Sobrenome:</label>
+        <input name="sobrenome" id="sobrenome" type="text" placeholder="Sobrenome">
+        <br>
+        <label for="idade">Idade:</label>
+        <input name="Idade" id="idade" type="text" placeholder="Idade">
+        <br>
+        <label for="genero">Gênero</label>
+        <div>
+            <input type="radio" name="genero" id="genero" value="Masculino"> Masculino
+            <input type="radio" name="genero" id="genero" value="Feminino"> Feminino
+        </div>
+        <br><br>
+        <button type="button" onclick="cadastrarPessoa()"><a href="index.html">Cadastrar Pessoa</a></button>
+    </form>
+
+</body>
+
+</html>

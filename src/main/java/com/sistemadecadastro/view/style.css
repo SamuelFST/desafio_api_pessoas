@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eeeeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+th{
+    border: 3px solid cornflowerblue;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+table{
+    margin: auto;
+    border: 5px solid cornflowerblue;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    font-size: medium;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    padding: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=text] {
+    padding: 10px;
+    border-radius: 25px;
+    height: 30px;
+    width:150px;
+    font-size: medium;
+    border: solid 2px cornflowerblue;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 18px;
+}
+
+form{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid cornflowerblue;
+    margin-left: 35%;
+  	margin-right: 35%;
+    margin-top: 30px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.formBusca {
+    border: none;
+}
+
+.container{
+    position: absolute;
+    padding: 20px;
+    top: 40px;
+    bottom: auto;
+    background-color: white;
+    border-radius: 0px 50px 50px 0px;
+    border: 3px solid cornflowerblue;
+    border-left: none;
+}
+
+.box{
+    position: absolute;
+    left: 600px;
+    top: 10px;
+    right: auto;
+    background-color: white;
+}

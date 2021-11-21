@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar cadastro</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="get.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <form onsubmit="gerarTabela()" class="formBusca">
+            <h3>Buscar pessoa</h3>
+            <br>
+            <label for="id">ID:</label>
+            <input name="buscaId" id="buscaId" type="text" placeholder="ID"><br>
+            <button type="submit">Buscar ID</button>
+            <button><a href='index.html'>Voltar</a></button>
+        </form>
+
+        <div class="box">
+            <table id="tabela">
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Sobrenome</th>
+                <th>Idade</th>
+                <th>Gênero</th>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
